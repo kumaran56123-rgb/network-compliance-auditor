@@ -1,0 +1,33 @@
+#
+# Palo Alto Networks sample config for fw-pa-01
+# Generated for NetAudit demo
+#
+set deviceconfig setting-management web-session idle-timeout 30
+set deviceconfig setting-management http-redirect disable
+set deviceconfig setting-management ssh-service disable
+set deviceconfig setting-management telnet-service disable
+set deviceconfig setting-management dns-setting servers 8.8.8.8
+set deviceconfig setting-management dns-setting servers 8.8.4.4
+set deviceconfig setting-management dns-setting port 53
+set deviceconfig setting-management dns-setting type IPv4
+set deviceconfig setting-mgmt-config commit-timeout 30
+set deviceconfig setting-mgmt-config pending-changes-timeout 30
+set deviceconfig setting-mgmt-config ip-address 10.0.2.1
+set deviceconfig setting-mgmt-config netmask 255.255.255.0
+set deviceconfig setting-mgmt-config default-gateway 10.0.2.254
+set deviceconfig setting-mgmt-config dns-primary 8.8.8.8
+set deviceconfig setting-mgmt-config dns-secondary 8.8.4.4
+set deviceconfig setting-mgmt-config timezone America/Los_Angeles
+set deviceconfig setting-mgmt-config ntp-server 0.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 1.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 2.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 3.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 4.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 5.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 6.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 7.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 8.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 9.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 10.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 11.pool.ntp.org
+set deviceconfig setting-mgmt-config ntp-server 12.pool.ntp.org
